@@ -7,6 +7,7 @@
 }
 textarea{
       text-align: center;
+      margin-top: 10px;
 }
 h1{
   display:none;
@@ -60,15 +61,12 @@ input {
     font-size: 15px;
 }
 .liste-recherche {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-     padding-top: 90px;
-     padding-left: 0px;
-     align-items: center
+    display: grid;
+    margin: 120px auto 0;
+    width: 75%;
 }
 .btn-rechercher {
-    padding: 1px 50px;
+padding :5px;
 }
 .background-header {
     background-size: 180%;
@@ -76,6 +74,8 @@ input {
 }
 .champ{
   margin-top: 10px;
+  width: 90%;
+  text-align: center;
 }
 .bande-promo{
   font-size: 0.8em;
@@ -97,20 +97,23 @@ input {
     flex-direction: column;
 }
 #date{
-  height: 38px;
+  height: 25px;
       border: 1px;
 
 }
 #lieu{
   border:1px;
+  height: 25px;
 }
 #Nom{
   text-align: center;
-      padding: 1px 83px;
+      padding: 1px 85px;
+      margin-top: 10px;
 }
 #email{
   text-align: center;
-      padding: 1px 83px;
+      padding: 1px 85px;
+      margin-top: 10px;
 }
 .voitures{
   margin: 10px 0px;
@@ -161,6 +164,12 @@ input {
   margin-top: 30px;
 }
 #envoyer{
-  height: 20px;
+  height: 30px;
 }
+.espace-rs{
+  padding-top: 20px;
+}
+
+.apfooter{
+  padding-top: 10px;
 }
