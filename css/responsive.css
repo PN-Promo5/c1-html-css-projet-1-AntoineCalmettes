@@ -1,0 +1,166 @@
+/* * Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width:320px) and (max-device-width :1024px) {
+
+
+.container{
+    width: 100%;
+}
+textarea{
+      text-align: center;
+}
+h1{
+  display:none;
+}
+input {
+    width: 150px;
+    border-radius: 5px;
+    height: 16px;
+  }
+
+  #date{
+    height: 16px;
+  }
+  .logo{
+  height: 30px;
+  }
+  textarea{
+    width: 100%;
+  }
+.presentation-photos {
+  display:none;
+}
+.liste-nav {
+    display: flex;
+    margin-top: 5px;
+    font-size: 10px;
+    width: 290px;
+    justify-content: space-around;
+        padding-left: 0px;
+}
+.btn-publier-une-annonce{
+  padding: 0px 0px;
+  border: 0px solid ;
+  border-radius: 0px;
+  text-shadow: 0px 0px 0px rgba(0, 0, 255, 0);
+  background-color:  rgba(0, 0, 255, 0);
+  color: black;
+}
+.nav-header{
+  display: flex;
+  flex-direction: column;
+}
+.background-header {
+  background-position: top;
+}
+.texte-header {
+    text-align: center;
+    padding-top: 0px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 15px;
+}
+.liste-recherche {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+     padding-top: 90px;
+     padding-left: 0px;
+     align-items: center
+}
+.btn-rechercher {
+    padding: 1px 50px;
+}
+.background-header {
+    background-size: 180%;
+    height: 370px;
+}
+.champ{
+  margin-top: 10px;
+}
+.bande-promo{
+  font-size: 0.8em;
+  display: grid;
+}
+.bouton-decouvrez {
+    margin-left: 0px;
+    margin-left: 0px;
+  padding: 1px 90px;
+    font-size: 0.7em;
+}
+.h2-titre {
+    font-size: 25px;
+    text-shadow: 0px 0px 0px black;
+}
+.les-produits {
+    display: grid;
+    margin-top: 25px;
+    flex-direction: column;
+}
+#date{
+  height: 38px;
+      border: 1px;
+
+}
+#lieu{
+  border:1px;
+}
+#Nom{
+  text-align: center;
+      padding: 1px 83px;
+}
+#email{
+  text-align: center;
+      padding: 1px 83px;
+}
+.voitures{
+  margin: 10px 0px;
+}
+.header-zoe{
+  border-radius: 10px 10px 0px 0px;
+}
+.header-tesla{
+  border-radius: 10px 10px 0px 0px;
+}
+.header-nissan{
+  border-radius: 10px 10px 0px 0px;
+}
+#container-row-footer{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+#formulaire{
+  display: grid;
+}
+.p-concept {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+.article-avantage {
+    display: grid;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+#barre{
+  display:none;
+}
+.reseux-sociaux {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.liste-CGU{
+  display:grid;
+  margin-top: 30px;
+}
+.description-footer{
+  display: grid;
+  margin-top: 30px;
+}
+#envoyer{
+  height: 20px;
+}
+}
