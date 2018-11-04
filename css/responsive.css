@@ -74,7 +74,7 @@ padding :5px;
 }
 .champ{
   margin-top: 10px;
-  width: 90%;
+  width: 95%;
   text-align: center;
 }
 .bande-promo{
@@ -109,11 +109,13 @@ padding :5px;
   text-align: center;
       padding: 1px 85px;
       margin-top: 10px;
+      width: 160px;
 }
 #email{
   text-align: center;
       padding: 1px 85px;
       margin-top: 10px;
+      width: 160px;
 }
 .voitures{
   margin: 10px 0px;

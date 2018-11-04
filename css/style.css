@@ -107,7 +107,7 @@ footer{
   background-color: #f5f5f5;
 }
 input{
-  width: 190px;
+  width: 120px;
   border-radius: 5px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border: none;
@@ -182,8 +182,8 @@ textarea {
 
 .liste-recherche {
       display: flex;
-      padding-left: 390px;
-      padding-top: 140px;
+      /* padding-left: 390px;
+      padding-top: 140px; */
       width: 50%;
       margin: 65px auto 0;
       background-color: #ffffffb3;
@@ -502,6 +502,7 @@ display: block;
     padding: 1px 60px;
     border-radius: 5px;
       box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      width: 188px;
 
 }
 #email{
@@ -510,6 +511,7 @@ display: block;
       border-radius: 5px;
         margin-top: 10px;
               box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+              width: 188px;
 }
 #envoyer {
 
